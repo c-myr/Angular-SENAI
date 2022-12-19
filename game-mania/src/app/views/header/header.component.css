@@ -1,0 +1,140 @@
+.hamburguer {
+    display: none;
+}
+
+.barraDeBusca input[type='text'] {
+    width: 400px;
+    float: left;
+    border: none;
+    padding-left: 15px;
+    border-radius: 50px 0 0 50px;
+    height: 25px;
+}
+
+.barraDeBusca button {
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+}
+
+header {
+    background: linear-gradient(89.96deg, rgba(7, 37, 95, 0.8556) 4.11%, rgba(15, 14, 39, 0.6164) 81.75%);
+    height: 85px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cabeçalho {
+    height: 85px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.barra {
+    background-color: #1B1B31;
+}
+
+.barraDeBusca {
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+input {
+    width: 422.54px;
+    height: 25px;
+    border-radius: 22px;
+}
+
+.Buscar {
+    padding-left: 15px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 600px;
+}
+
+
+
+.menu {
+    background-color: #1B1B31;
+}
+
+nav {
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.promoções {
+    color: #d60a0a;
+}
+
+@media screen and (max-width:1230px) {
+    .alinhamento {
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width:1054px) {
+    .alinhamento {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .alinhamento {
+        width: 480px;
+    }
+
+    #hamburguer {
+        display: inline-block;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .usuario {
+        display: none;
+    }
+
+    .carrinho {
+        display: none
+    }
+
+    .nav {
+        position: absolute;
+        top: 145px;
+        left: 0;
+        width: 100%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        background-color: #1B1B31
+    }
+
+}

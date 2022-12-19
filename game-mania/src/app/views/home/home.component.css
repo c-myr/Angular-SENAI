@@ -1,0 +1,129 @@
+#carrossel {
+    height: 576px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo-banner {
+    background-color: #D4D4C5;
+    height: 576px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-1 {
+    background-image: url(/assets/img/bannersale.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-2 {
+    background-image: url(/assets/img/banner-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-3 {
+    background-image: url(/assets/img/banner-3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner {
+    height: 459px;
+}
+
+.click-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 459px;
+    width: 888px;
+}
+
+.marcas {
+    height: 50px;
+    background-color: #b6b6a5;
+}
+
+.posicionamento-marcas {
+    height: 100%;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.divisao {
+    background-color: #D4D4C5;
+    height: 50px;
+}
+
+.conteudo {
+    background-color: #1B1B31;
+    height: 344px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width:1230px) {
+    .alinhamento {
+        width: 1024px;
+    }
+
+}
+
+@media screen and (max-width:1054px) {
+    .alinhamento {
+        width: 768px;
+    }
+
+    .conteudo {
+        height: 950px;
+    }
+
+    .produtos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        padding-bottom: 15px;
+    }
+
+    .card2 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .card3 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .card4 {
+        padding-top: 15px;
+    }
+
+    .marcas {
+        display: none
+    }
+
+}
+
+@media screen and (max-width:790px) {
+    .alinhamento {
+        width: 480px;
+    }
+}

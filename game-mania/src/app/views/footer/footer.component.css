@@ -1,0 +1,125 @@
+.footer {
+    background-color: #1B1B31;
+    height: 346px;
+    display: flex;
+    align-items: center;
+}
+
+.titulos {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.conteudos {
+    text-transform: initial;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.lugarfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 211px
+}
+
+.icones-redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos2 {
+    text-transform: initial;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.icones-redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos3 {
+    text-transform: initial;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulos3 input[type='email'] {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 245px;
+    float: left;
+    border: none;
+    padding-left: 15px;
+    border-radius: 50px 0 0 50px;
+}
+
+.titulos3 button {
+    width: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:1230px) {
+    .alinhamento {
+        width: 1024px;
+    }
+
+}
+
+@media screen and (max-width:1054px) {
+    .alinhamento {
+        width: 768px;
+    }
+
+    .lugarfooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .alinhamento {
+        width: 480px;
+    }
+}

@@ -1,0 +1,17 @@
+<section class="login">
+    <div class="alinhamento login">
+        <div class="campo">
+            <img class="icon-usuario" src="assets/img/Login/usuario 1.svg">
+            <form class="campo-login" #loginForm="ngForm" (ngSubmit)="onSubmit()">
+                <div class="email">
+                    <input class="e-mail" type="email" placeholder="E-mail" [(ngModel)]="loginModel.email" name="email">
+                 </div>
+                 <div>
+                    <input class="senha" type="password" placeholder="Senha" [(ngModel)]="loginModel.password" name="password">
+                </div>
+                <input id="enviar" type="submit" value="enviar" class="enviar">
+            </form>
+        </div>
+
+    </div>
+</section>
