@@ -15,19 +15,19 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  loginModel = new User();
+loginModel = new User();
 
-  mensagem = ""
+mensagem = ""
 
-  usuarioLogado = ""
+usuarioLogado = ""
 
-  /*
+
+/*
 onSubmit() {
   console.log(this.loginModel)
-
   this.loginService.login(this.loginModel).subscribe((response) => {
     console.log("Logado com sucesso!")
-    this.router.navigateByUrl("")
+    this.router.navigateByUrl("perfil")
   },
   (respostaErro) => {
     this.mensagem = respostaErro.error

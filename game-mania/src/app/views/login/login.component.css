@@ -26,17 +26,29 @@
 }
 
 .email {
-    width: 300px;
-    margin-top: 20px;
-    text-align: center;
-    border-style: none;
-
-
+    display: flex;
+    flex-direction: column;
 }
 
+
 .senha {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+}
+
+#email {
+    width: 300px;  
+    text-align: center;
+    border-style: none;
+    margin-bottom: 15px;
+}
+
+#senha {
     width: 300px;
-    margin-top: 20px;
     text-align: center;
     border-style: none;
 }
@@ -49,7 +61,8 @@
 }
 
 .enviar {
-    width: 75px;
+    height: 35px;
+    width: 90px;
     margin-top: 20px;
     background-color: #A0A08A21;
     color: white;
@@ -58,6 +71,10 @@
 
 }
 
+
+#mensagem {
+    color: red;
+}
 
 @media screen and (max-width:1230px) {
     .alinhamento {

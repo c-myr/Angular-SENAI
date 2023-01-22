@@ -3,14 +3,23 @@
         <div class="campo">
             <img class="icon-usuario" src="assets/img/Login/usuario 1.svg">
             <form class="campo-login" #loginForm="ngForm" (ngSubmit)="onSubmit()">
+                
                 <div class="email">
-                    <input class="e-mail" type="email" placeholder="E-mail" [(ngModel)]="loginModel.email" name="email">
+                    <label>Email:</label>
+                    <input id="email" type="email" placeholder="E-mail" [(ngModel)]="loginModel.email" name="email">
                  </div>
-                 <div>
-                    <input class="senha" type="password" placeholder="Senha" [(ngModel)]="loginModel.password" name="password">
+                
+                 <div class="senha">
+                    <label>Senha:</label>
+                    <input id="senha" type="password" placeholder="Senha" [(ngModel)]="loginModel.password" name="password">
                 </div>
+                
+                <p id="mensagem" *ngIf=" mensagem != '' "> {{ mensagem }} </p>
+
                 <input id="enviar" type="submit" value="enviar" class="enviar">
+            
             </form>
+
         </div>
 
     </div>
